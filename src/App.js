@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
+import AboutMe from "./components/AboutMe";
 /*import Particles from "react-particles-js";
 import tsparticles from "tsparticles";*/
 
@@ -12,6 +13,7 @@ function App() {
 
       <Navbar />
       <Header />
+      <AboutMe />
     </>
 
   );
