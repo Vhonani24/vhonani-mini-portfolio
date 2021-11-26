@@ -7,6 +7,7 @@ import sql from "../sql.png";
 import posgres from "../posgres.png";
 import react from "../react.png";
 import git from "../git.png";
+import bootstrap from "../bootstrap.png";
 /*import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faHTML5, faCSS, faDesktop} from "@fortawesome/free-solid-svg-icons";*/
 
@@ -107,6 +108,16 @@ const Skills = () => {
 
                     </div>
                     {/* */}
+                    <div className="col-md-3 col-sm-6">
+                        <div className="box">
+                            <h3>Bootstrap</h3>
+                            <div className="photo-wrap mb-5">
+                                <img className="icons-img" src={bootstrap} alt="bootstrap..." />
+
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
