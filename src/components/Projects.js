@@ -4,7 +4,7 @@ import {faHTML5, faCSS, faDesktop} from "@fortawesome/free-solid-svg-icons";*/
 
 const Projects = () => {
     return (
-        <div className="projects">
+        <div id="projects"className="projects">
             <h1 className="py-5">My Projects</h1>
             <div className="container">
                 <div className="row">

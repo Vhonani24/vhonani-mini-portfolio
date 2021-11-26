@@ -347,7 +347,7 @@ nav ul li{
 
 /************************ FOOTER COMPONENT *********************************/
 .footer {
-  background: var(--primary-black);
+  background-color: var(--primary-black);
   color: var(--primary-dark-grey);
   padding: 3rem;
 }

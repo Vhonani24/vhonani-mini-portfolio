@@ -5,6 +5,8 @@ import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
+import { LINK } from "react-scroll";
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
@@ -16,20 +18,20 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item active">
+            < li className="nav-item active">
               <Link smooth={true} to="Home" className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
             </li>
-            <li href="about_me" className="nav-item">
-              <Link smooth={true} to="About Me" offset={-110} className="nav-link" >about me</Link>
+            < li href="about_me" className="nav-item">
+              <Link smooth={true} to="about" offset={-110} className="nav-link" >about me</Link>
             </li>
-            <li className="nav-item">
-              <Link smooth={true} to="Skills" offset={-110} className="nav-link" href="#">skills</Link>
+            < li className="nav-item">
+              <Link smooth={true} to="skills" offset={-110} className="nav-link" href="#">skills</Link>
             </li>
-            <li className="nav-item">
-              <Link smooth={true} to="Education" offset={-110} className="nav-link" >education</Link>
+            < li className="nav-item">
+              <Link smooth={true} to="education" offset={-110} className="nav-link" >education</Link>
             </li>
-            <li className="nav-item">
-              <Link smooth={true} to="Projects" offset={-110} className="nav-link" >projects</Link>
+            < li className="nav-item">
+              <Link smooth={true} to="projects" offset={-110} className="nav-link" >projects</Link>
             </li>
 
           </ul>
