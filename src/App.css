@@ -8,6 +8,7 @@
   --primary-purple: #871F78;
   --primary-hover-purple: #871F78;
   --primary-light-grey: #f4f4f4;
+  --primary-black: black;
 }
 
 body{
@@ -103,7 +104,7 @@ nav ul li{
 
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
   border-top: 0.1875rem solid var(--primary-crimson);
 }
 
@@ -118,7 +119,7 @@ nav ul li{
   background: url(banner.png) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 .main-info{
   display: flex;
@@ -170,16 +171,6 @@ nav ul li{
   background-color: var(--primary-hover-purple);
   transition: 0.2s ease-in-out;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -347,8 +338,8 @@ nav ul li{
 
 /************************ FOOTER COMPONENT *********************************/
 .footer {
-  background-color: var(--primary-black);
-  color: var(--primary-dark-grey);
+  background: var(--primary-black);
+  color: var(--primary-white);
   padding: 3rem;
 }
 

@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import Typed from "react-typed";
+import { Link } from "react-scroll";
 
 const Header = () => {
     return (
@@ -14,7 +15,7 @@ const Header = () => {
                 backSpeed={60}
                 loop
                 />
-                <a href="#" className="btn-main-offer">contact me</a>
+                <a id="footer" Link smooth={true} to="footer"  href="#" className="btn-main-offer nav-link">contact me</a>
             </div>
 
         </div>

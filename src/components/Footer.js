@@ -11,7 +11,7 @@ const Footer = () => {
               <p>6A August St,Schotsche Kloof,Cape Town,8001</p>
             </div>
             <div className="d-flex">
-              <a href="tel:555-555-555">+27(72)183-1733</a>
+              <a href="tel:072-1831-733">+27(72)183-1733</a>
             </div>
             <div className="d-flex">
               <p>vhonani.ramu@gmail.com</p>

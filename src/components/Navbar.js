@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-import { LINK } from "react-scroll";
+
 
 const Navbar = () => {
   return (
