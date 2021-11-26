@@ -5,6 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
+import Education from "./components/Education";
+
 /*import Particles from "react-particles-js";
 import tsparticles from "tsparticles";*/
 
@@ -16,6 +18,7 @@ function App() {
       <Header />
       <AboutMe />
       <Skills />
+      <Education />
     </>
 
   );
