@@ -9,22 +9,26 @@ const Projects = () => {
             <div className="container">
                 <div className="row">
                     {/* */}
-                    <div className="col-12 col-sm-6 col-md-6 col-lg-6">
+                    <div className="col-12">
                         <div className="btn-main-offer">
                             <h3>Greetins-webapp</h3>
                             <a href="https://greetings-webapp-db.herokuapp.com"> Greetins-webapp</a>
                         </div>
 
                     </div>
-                    {/* */}
-                    <div className="col-12 col-sm-6 col-md-6 col-lg-6">
+                   
+
+
+                </div>
+                <div className="row">
+                     {/* */}
+                     <div className="col-12">
                         <div className="btn-main-offer">
                             <h3>Registrations-webapp</h3>
                             <a  href="https://registration-numbers-dbapp.herokuapp.com">Registrations-webapp</a>
                         </div>
 
                     </div>
-
 
 
                 </div>
