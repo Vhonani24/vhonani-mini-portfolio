@@ -11,7 +11,9 @@ const Education = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2021-Present</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+            <p>Completing a one-year coding program in Agile Web Development which is
+            focused on technical skills to build web applications, collaboration skills needed
+            to work successfully on a team, professional development, and leadership training(Certificate)..</p>
           </div>
         </div>
         {/* - */}
@@ -19,7 +21,7 @@ const Education = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2013-2017</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+            <p>Obtained a B.Sc. degree in Life and Environmental Sciences from the University of Johannesburg in 2018. Majored in Zoology and Environmental Management.</p>
           </div>
         </div>
         {/* - */}
@@ -27,7 +29,7 @@ const Education = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>2008-2012</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit omnis laboriosam odio deserunt reprehenderit optio cum ratione sequi pariatur deleniti iste perspiciatis officiis minima iusto hic, ipsa ea dicta velit! Quos, placeat ratione. Sunt cumque delectus asperiores et quas qui.</p>
+            <p>Complete matric in 2012 from Mbilwi Secondary School..</p>
           </div>
         </div>
       </div>

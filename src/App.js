@@ -6,6 +6,8 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 /*import Particles from "react-particles-js";
 import tsparticles from "tsparticles";*/
@@ -19,6 +21,8 @@ function App() {
       <AboutMe />
       <Skills />
       <Education />
+      <Projects />
+      <Footer />
     </>
 
   );
