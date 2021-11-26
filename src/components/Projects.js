@@ -12,7 +12,7 @@ const Projects = () => {
                     <div className="col-12 col-sm-6 col-md-6 col-lg-6">
                         <div className="btn-main-offer">
                             <h3>Greetins-webapp</h3>
-                            <a className="about-heading"href="https://greetings-webapp-db.herokuapp.com"> Greetins-webapp</a>
+                            <a href="https://greetings-webapp-db.herokuapp.com"> Greetins-webapp</a>
                         </div>
 
                     </div>
@@ -20,7 +20,7 @@ const Projects = () => {
                     <div className="col-12 col-sm-6 col-md-6 col-lg-6">
                         <div className="btn-main-offer">
                             <h3>Registrations-webapp</h3>
-                            <a className="about-heading" href="https://registration-numbers-dbapp.herokuapp.com">Registrations-webapp</a>
+                            <a  href="https://registration-numbers-dbapp.herokuapp.com">Registrations-webapp</a>
                         </div>
 
                     </div>
